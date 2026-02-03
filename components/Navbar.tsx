@@ -28,14 +28,14 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0 flex items-center gap-3 group">
               <div className={`transition-transform duration-300 group-hover:scale-110`}>
-                <Logo size={42} className={scrolled ? 'text-cyan-500' : 'text-cyan-400'} />
+                <Logo size={42} />
               </div>
               <span className={`font-outfit font-bold text-xl tracking-tight transition-colors duration-300 ${scrolled ? 'text-slate-900' : 'text-slate-900 lg:text-white'}`}>
                 CODEFRONT
               </span>
             </a>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <div className="pt-4">
-             <a
+            <a
               href="#contact"
               onClick={() => setIsOpen(false)}
               className="block w-full text-center bg-cyan-500 text-white px-5 py-3 rounded-xl text-base font-bold shadow-lg shadow-cyan-500/20"
