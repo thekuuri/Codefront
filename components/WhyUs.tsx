@@ -65,8 +65,8 @@ const WhyUs: React.FC = () => {
 
             {/* AWS */}
             <div className="group flex flex-col items-center gap-4 transition-all duration-500 hover:-translate-y-2">
-              <img src="https://cdn.simpleicons.org/amazonservices" alt="AWS" className="h-12 w-auto opacity-80 group-hover:opacity-100 transition-all duration-500" />
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">AWS</span>
+              <span className="h-12 flex items-center text-white font-extrabold text-2xl tracking-tighter opacity-80 group-hover:opacity-100 transition-all duration-500">AWS</span>
+              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Infrastructure</span>
             </div>
 
             {/* Ubuntu/Linux */}
@@ -77,14 +77,14 @@ const WhyUs: React.FC = () => {
 
             {/* Power BI */}
             <div className="group flex flex-col items-center gap-4 transition-all duration-500 hover:-translate-y-2">
-              <img src="https://cdn.simpleicons.org/powerbi" alt="Power BI" className="h-12 w-auto opacity-80 group-hover:opacity-100 transition-all duration-500" />
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Power BI</span>
+              <span className="h-12 flex items-center text-white font-extrabold text-2xl tracking-tighter opacity-80 group-hover:opacity-100 transition-all duration-500">POWER BI</span>
+              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Analytics</span>
             </div>
 
             {/* SharePoint */}
             <div className="group flex flex-col items-center gap-4 transition-all duration-500 hover:-translate-y-2">
-              <img src="https://cdn.simpleicons.org/microsoftsharepoint" alt="SharePoint" className="h-12 w-auto opacity-80 group-hover:opacity-100 transition-all duration-500" />
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">SharePoint</span>
+              <span className="h-12 flex items-center text-white font-extrabold text-2xl tracking-tighter opacity-80 group-hover:opacity-100 transition-all duration-500">SHAREPOINT</span>
+              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Collaboration</span>
             </div>
 
             {/* Red Hat */}
